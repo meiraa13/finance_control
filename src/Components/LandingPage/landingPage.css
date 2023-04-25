@@ -1,0 +1,56 @@
+.div-page {
+  background-color: var(--grey-4);
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.div-main-landing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-landing-1 {
+  color: white;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.div-landing-2 {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-img {
+  width: 30rem;
+  height: 30rem;
+}
+
+@media (max-width: 900px) {
+  .div-main-landing {
+    flex-direction: column;
+  }
+
+  .div-landing-1 {
+    width: 100%;
+  }
+
+  .div-landing-2 {
+    width: 100%;
+    align-items: flex-end;
+  }
+
+  .landing-img {
+    width: 12rem;
+    height: 12rem;
+  }
+}
