@@ -7,8 +7,6 @@ export function Form({ setListTransactions, listTransactions }){
     const [value, setValue] = useState()
     const [type, setType] = useState()
 
-    
-
     function handleSubmit(event){
         event.preventDefault()
     
@@ -18,10 +16,8 @@ export function Form({ setListTransactions, listTransactions }){
             value: Number(value),
             id:uuid()
         }
-
-
+      
         setListTransactions([...listTransactions, newData])
-
     }
 
     return(
@@ -34,7 +30,7 @@ export function Form({ setListTransactions, listTransactions }){
         <div className="div-labels">
           <label>
             Value
-            <input className="input2" onChange={(event) => setValue(event.target.value)} type="number"  placeholder="1"></input>
+            <input className="input2" onChange={(event) => setValue(event.target.value)} type="number"  placeholder="$1"></input>
           </label>
           <label>
             Income / Outcome

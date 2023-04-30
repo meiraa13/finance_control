@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--grey-2);
+}
+
 li,
 ul {
   list-style: none;
