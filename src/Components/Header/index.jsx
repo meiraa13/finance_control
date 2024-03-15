@@ -7,7 +7,7 @@ export function Header ({changePage}){
         <>
              <header>
                 <div className="div-header container">
-                    <h2>Nu Kenzie</h2>
+                    <h2>Transaction-Tracker</h2>
                     <button className="btn-goBack" onClick={changePage} >Home Page</button>
                 </div>
             </header>
