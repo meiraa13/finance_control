@@ -45,7 +45,7 @@ export function Dashboard({ changePage }) {
           </div>
           <div className="div-right">
             <ul>
-              Financial Overview
+              <h2>Summary</h2>
               {
                 listTransactions.length == 0
                 ? <NoItem />
